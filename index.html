@@ -9,8 +9,10 @@
 <meta property="og:title" content="KnitCult — We'll be right back">
 <meta property="og:description" content="Collector grade soccer jerseys. We're taking a short break and will be back soon.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="/logo.png">
 <meta name="theme-color" content="#0D0D0D">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230D0D0D'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='900' font-size='30' text-anchor='middle' fill='%23fff'%3EKC%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -20,8 +22,8 @@
   html,body{height:100%}
   body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;display:flex;flex-direction:column;min-height:100vh;
     background-image:radial-gradient(ellipse at 50% 0%,#1c1c1c 0%,transparent 60%)}
-  header{padding:32px 40px;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:.28em;font-size:14px;text-transform:uppercase}
-  header span{color:var(--muted);font-weight:500}
+  header{display:flex;align-items:center;gap:12px;padding:32px 40px;font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:.28em;font-size:14px;text-transform:uppercase}
+  header b{font-weight:700}header img{border-radius:6px}header span{color:var(--muted);font-weight:500}
   main{flex:1;display:flex;align-items:center;justify-content:center;padding:24px}
   .wrap{max-width:640px;width:100%;text-align:center}
   .pill{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--border);background:var(--surface);
@@ -40,7 +42,7 @@
 </style>
 </head>
 <body>
-<header>Knit<span>Cult</span></header>
+<header><img src="/logo.png" alt="" width="28" height="28"><b>Knit<span>Cult</span></b></header>
 <main>
   <div class="wrap">
     <div class="pill" data-testid="status-pill"><span class="dot" aria-hidden="true"></span>Taking a short break</div>
